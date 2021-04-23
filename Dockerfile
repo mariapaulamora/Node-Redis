@@ -1,5 +1,7 @@
 FROM node:15
 
+USER 1001                                                        
+
 WORKDIR /usr/src/app
 
 COPY package*.json ./
