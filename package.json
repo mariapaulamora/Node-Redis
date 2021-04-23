@@ -1,0 +1,24 @@
+{
+  "name": "first_connection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon getData.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "flat": "^5.0.2",
+    "fs": "0.0.1-security",
+    "nodemon": "^2.0.7",
+    "redis": "^3.1.1",
+    "redis-json": "^5.0.0",
+    "redis-rejson": "^1.0.0",
+    "xml2js": "^0.4.23",
+    "xml2json": "^0.12.0"
+  }
+}
