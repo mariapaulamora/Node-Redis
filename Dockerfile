@@ -1,4 +1,4 @@
-FROM node:15
+FROM node:latest
                                                   
 WORKDIR /usr/src/app
 
@@ -10,5 +10,5 @@ COPY . .
 
 EXPOSE 8000
 EXPOSE 3001
-
-CMD [ "npm", "start" ]
+EXPOSE 3000
+CMD [ "node", "getData.js" ]
